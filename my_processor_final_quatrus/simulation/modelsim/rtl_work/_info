@@ -1,0 +1,346 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\sadzi\Desktop\LAB11\simulation\modelsim
+Ealu
+Z1 w1623683392
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\sadzi\Desktop\LAB11\simulation\modelsim
+Z6 8C:/Users/sadzi/Desktop/LAB11/alu.vhd
+Z7 FC:/Users/sadzi/Desktop/LAB11/alu.vhd
+l0
+L5
+V>>VR0QZXUgj62;RlUEUVB3
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1624217507.284000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/sadzi/Desktop/LAB11/alu.vhd|
+Z11 !s107 C:/Users/sadzi/Desktop/LAB11/alu.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 BD<IQKE<C4]L06Ea6[b<;0
+!i10b 1
+Aalu_arch
+R2
+R3
+R4
+Z14 DEx4 work 3 alu 0 22 >>VR0QZXUgj62;RlUEUVB3
+l15
+L12
+VFa5RhJDIgNXfg^36jFOgL0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 ]Sz3UH8BBCE1JT>;QNkcn3
+!i10b 1
+Ei_r
+Z15 w1622456450
+R2
+R3
+R4
+R5
+Z16 8C:/Users/sadzi/Desktop/LAB11/I_R.vhd
+Z17 FC:/Users/sadzi/Desktop/LAB11/I_R.vhd
+l0
+L5
+VCN7OTd_dQYl0]YlO`MXOC3
+R8
+31
+Z18 !s108 1624217506.798000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/sadzi/Desktop/LAB11/I_R.vhd|
+Z20 !s107 C:/Users/sadzi/Desktop/LAB11/I_R.vhd|
+R12
+R13
+!s100 ABkzBc1i3k6I>KL8[H<^n0
+!i10b 1
+Aarch
+R2
+R3
+R4
+Z21 DEx4 work 3 i_r 0 22 CN7OTd_dQYl0]YlO`MXOC3
+l14
+L13
+V<hAXbbM4<B2^PfIgYRM_f2
+R8
+31
+R18
+R19
+R20
+R12
+R13
+!s100 ;8@QbW4RQ_ZUmiP4[U8UP1
+!i10b 1
+Emoj_procesor
+Z22 w1624216737
+R2
+R3
+R4
+R5
+Z23 8C:/Users/sadzi/Desktop/LAB11/moj_procesor.vhd
+Z24 FC:/Users/sadzi/Desktop/LAB11/moj_procesor.vhd
+l0
+L5
+Vl8V^STcA2=heKKS=obC@J0
+!s100 T:X;j80MZa0gDcFi9VojF2
+R8
+31
+!i10b 1
+Z25 !s108 1624217507.452000
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/sadzi/Desktop/LAB11/moj_procesor.vhd|
+Z27 !s107 C:/Users/sadzi/Desktop/LAB11/moj_procesor.vhd|
+R12
+R13
+Aarch
+R14
+Z28 DEx4 work 9 ram_rn_ak 0 22 6@Zk^1m[:gHnNW3Zf0X]n3
+Z29 DEx4 work 5 u_jed 0 22 M4n1>d>=7nimDV=oJ^U@63
+Z30 DEx4 work 15 registar_stanja 0 22 ni4KmY4HHb>W@?K5[2neL1
+R21
+Z31 DEx4 work 5 stack 0 22 z010Y5W^fOL[oAEh3<7dQ2
+Z32 DEx4 work 3 rom 0 22 S[Oh5PZnVDOVXHecGI88Y1
+Z33 DEx4 work 17 programski_brojac 0 22 9h@GbI1F?7W=mH;eTIdQ91
+R2
+R3
+R4
+DEx4 work 12 moj_procesor 0 22 l8V^STcA2=heKKS=obC@J0
+l31
+L12
+VY2`a@:[K^ZY;X;E7_LY<F3
+!s100 ZWV[<l7V4Wi:<<MbL8FQT3
+R8
+31
+!i10b 1
+R25
+R26
+R27
+R12
+R13
+Eprogramski_brojac
+Z34 w1623575388
+R2
+R3
+R4
+R5
+Z35 8C:/Users/sadzi/Desktop/LAB11/programski_brojac.vhd
+Z36 FC:/Users/sadzi/Desktop/LAB11/programski_brojac.vhd
+l0
+L5
+V9h@GbI1F?7W=mH;eTIdQ91
+R8
+31
+Z37 !s108 1624217505.954000
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/sadzi/Desktop/LAB11/programski_brojac.vhd|
+Z39 !s107 C:/Users/sadzi/Desktop/LAB11/programski_brojac.vhd|
+R12
+R13
+!s100 X:5cd<2ATgg@5zJ8=Kk>h3
+!i10b 1
+Aarch
+R2
+R3
+R4
+R33
+l17
+L14
+VbD>W6?NJ2F]WmW`k`Z;?L1
+R8
+31
+R37
+R38
+R39
+R12
+R13
+!s100 `RLf@gFSK6DnO][R2V1Xb0
+!i10b 1
+Eram_rn_ak
+Z40 w1623684226
+R2
+R3
+R4
+R5
+Z41 8C:/Users/sadzi/Desktop/LAB11/RAM_Rn_Ak.vhd
+Z42 FC:/Users/sadzi/Desktop/LAB11/RAM_Rn_Ak.vhd
+l0
+L5
+V6@Zk^1m[:gHnNW3Zf0X]n3
+R8
+31
+Z43 !s108 1624217507.111000
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/sadzi/Desktop/LAB11/RAM_Rn_Ak.vhd|
+Z45 !s107 C:/Users/sadzi/Desktop/LAB11/RAM_Rn_Ak.vhd|
+R12
+R13
+!s100 _nBNLYT=IEHT??dLHYB660
+!i10b 1
+Aarch
+R2
+R3
+R4
+R28
+l23
+L16
+V=_E8_V3nN7X09^en>f;6P1
+R8
+31
+R43
+R44
+R45
+R12
+R13
+!s100 2>JddKd;<;]]i[8gd>gnn1
+!i10b 1
+Eregistar_stanja
+Z46 w1623576128
+R2
+R3
+R4
+R5
+Z47 8C:/Users/sadzi/Desktop/LAB11/registar_stanja.vhd
+Z48 FC:/Users/sadzi/Desktop/LAB11/registar_stanja.vhd
+l0
+L5
+Vni4KmY4HHb>W@?K5[2neL1
+R8
+31
+Z49 !s108 1624217506.630000
+Z50 !s90 -reportprogress|300|-93|-work|work|C:/Users/sadzi/Desktop/LAB11/registar_stanja.vhd|
+Z51 !s107 C:/Users/sadzi/Desktop/LAB11/registar_stanja.vhd|
+R12
+R13
+!s100 B1hez1QZ^7dh=`Y:TWn6C3
+!i10b 1
+Aarch
+R2
+R3
+R4
+R30
+l13
+L12
+VWdUYL?00ZTcm451[j:iaU3
+R8
+31
+R49
+R50
+R51
+R12
+R13
+!s100 VAF_h8=NzhFfd0DUDJk4K2
+!i10b 1
+Erom
+Z52 w1623683952
+R2
+R3
+R4
+R5
+Z53 8C:/Users/sadzi/Desktop/LAB11/rom.vhd
+Z54 FC:/Users/sadzi/Desktop/LAB11/rom.vhd
+l0
+L6
+VS[Oh5PZnVDOVXHecGI88Y1
+R8
+31
+Z55 !s108 1624217506.239000
+Z56 !s90 -reportprogress|300|-93|-work|work|C:/Users/sadzi/Desktop/LAB11/rom.vhd|
+Z57 !s107 C:/Users/sadzi/Desktop/LAB11/rom.vhd|
+R12
+R13
+!s100 ^U8eJN8JDH6G4GLdD:heC3
+!i10b 1
+Aarch
+R2
+R3
+R4
+R32
+l34
+L14
+V<MSR7BjHXnCDPDaZbjL691
+R8
+31
+R55
+R56
+R57
+R12
+R13
+!s100 =2m]]h2@4z61L7c8@DZTb3
+!i10b 1
+Estack
+Z58 w1622372896
+R2
+R3
+R4
+R5
+Z59 8C:/Users/sadzi/Desktop/LAB11/stack.vhd
+Z60 FC:/Users/sadzi/Desktop/LAB11/stack.vhd
+l0
+L5
+Vz010Y5W^fOL[oAEh3<7dQ2
+R8
+31
+Z61 !s108 1624217506.463000
+Z62 !s90 -reportprogress|300|-93|-work|work|C:/Users/sadzi/Desktop/LAB11/stack.vhd|
+Z63 !s107 C:/Users/sadzi/Desktop/LAB11/stack.vhd|
+R12
+R13
+!s100 6X@J69?dLoP1_1QcBeWUR0
+!i10b 1
+Aarch
+R2
+R3
+R4
+R31
+l17
+L14
+VSa@e:9iD9IP[iI?O9e^l<3
+R8
+31
+R61
+R62
+R63
+R12
+R13
+!s100 Yg019J=@;7DQAi>bbB7W>3
+!i10b 1
+Eu_jed
+Z64 w1623684342
+R2
+R3
+R4
+R5
+Z65 8C:/Users/sadzi/Desktop/LAB11/u_jed.vhd
+Z66 FC:/Users/sadzi/Desktop/LAB11/u_jed.vhd
+l0
+L5
+VM4n1>d>=7nimDV=oJ^U@63
+R8
+31
+Z67 !s108 1624217506.949000
+Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/sadzi/Desktop/LAB11/u_jed.vhd|
+Z69 !s107 C:/Users/sadzi/Desktop/LAB11/u_jed.vhd|
+R12
+R13
+!s100 6S[4;Z2LbYHOiNYn;]9`:2
+!i10b 1
+Aarch
+R2
+R3
+R4
+R29
+l21
+L20
+VRL]GdPB^E5XJ3RiYiJ6O21
+R8
+31
+R67
+R68
+R69
+R12
+R13
+!s100 G3BLB?zN9GEdo?5bcno5H2
+!i10b 1

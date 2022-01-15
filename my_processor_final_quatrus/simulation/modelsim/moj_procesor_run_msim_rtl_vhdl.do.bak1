@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/dzena/OneDrive/Desktop/10_semestar/PSC/LABOVI_drugi_dio/lab7/programski_brojac.vhd}
+vcom -93 -work work {C:/Users/dzena/OneDrive/Desktop/10_semestar/PSC/LABOVI_drugi_dio/lab7/rom_memorija.vhd}
+vcom -93 -work work {C:/Users/dzena/OneDrive/Desktop/10_semestar/PSC/LABOVI_drugi_dio/lab7/rom.vhd}
+vcom -93 -work work {C:/Users/dzena/OneDrive/Desktop/10_semestar/PSC/LABOVI_drugi_dio/lab7/moj_procesor.vhd}
+

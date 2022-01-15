@@ -1,0 +1,237 @@
+# Reading D:/Web Edition v13.0.0.156-20180927T112242Z-003/modelsim_ase/tcl/vsim/pref.tcl 
+# do moj_procesor_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\Web Edition v13.0.0.156-20180927T112242Z-003\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\Web Edition v13.0.0.156-20180927T112242Z-003\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/programski_brojac.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity programski_brojac
+# -- Compiling architecture arch of programski_brojac
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/rom.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rom
+# -- Compiling architecture arch of rom
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/stack.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stack
+# -- Compiling architecture arch of stack
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/registar_stanja.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registar_stanja
+# -- Compiling architecture arch of registar_stanja
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/I_R.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity I_R
+# -- Compiling architecture arch of I_R
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/u_jed.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity u_jed
+# -- Compiling architecture arch of u_jed
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/RAM_Rn_Ak.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM_Rn_Ak
+# -- Compiling architecture arch of RAM_Rn_Ak
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/alu.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture alu_arch of alu
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/moj_procesor.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity moj_procesor
+# -- Compiling architecture arch of moj_procesor
+# -- Loading entity programski_brojac
+# -- Loading entity rom
+# -- Loading entity stack
+# -- Loading entity I_R
+# -- Loading entity registar_stanja
+# -- Loading entity u_jed
+# -- Loading entity RAM_Rn_Ak
+# -- Loading entity alu
+# 
+vsim +altera -do moj_procesor_run_msim_rtl_vhdl.do -l msim_transcript -gui work.moj_procesor
+# vsim +altera -do moj_procesor_run_msim_rtl_vhdl.do -l msim_transcript -gui work.moj_procesor 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.moj_procesor(arch)
+# Loading work.programski_brojac(arch)
+# Loading work.rom(arch)
+# Loading work.stack(arch)
+# Loading work.i_r(arch)
+# Loading work.registar_stanja(arch)
+# Loading work.u_jed(arch)
+# Loading work.ram_rn_ak(arch)
+# Loading work.alu(alu_arch)
+# ** Warning: (vsim-8683) Uninitialized out port /moj_procesor/RAM_Rn_Ak/izlaz(7 downto 0) has no driver.
+# 
+# This port will contribute value (UUUUUUUU) to the signal network.
+# 
+# do moj_procesor_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/programski_brojac.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity programski_brojac
+# -- Compiling architecture arch of programski_brojac
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/rom.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rom
+# -- Compiling architecture arch of rom
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/stack.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stack
+# -- Compiling architecture arch of stack
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/registar_stanja.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registar_stanja
+# -- Compiling architecture arch of registar_stanja
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/I_R.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity I_R
+# -- Compiling architecture arch of I_R
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/u_jed.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity u_jed
+# -- Compiling architecture arch of u_jed
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/RAM_Rn_Ak.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM_Rn_Ak
+# -- Compiling architecture arch of RAM_Rn_Ak
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/alu.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture alu_arch of alu
+# vcom -93 -work work {C:/Users/sadzi/Desktop/LAB11/moj_procesor.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity moj_procesor
+# -- Compiling architecture arch of moj_procesor
+# -- Loading entity programski_brojac
+# -- Loading entity rom
+# -- Loading entity stack
+# -- Loading entity I_R
+# -- Loading entity registar_stanja
+# -- Loading entity u_jed
+# -- Loading entity RAM_Rn_Ak
+# -- Loading entity alu
+# 
+add wave -position end  sim:/moj_procesor/clk
+add wave -position end  sim:/moj_procesor/brojac
+add wave -position end  sim:/moj_procesor/inst_reg_pom
+add wave -position end  sim:/moj_procesor/akA
+add wave -position end  sim:/moj_procesor/akB
+add wave -position end  sim:/moj_procesor/akC
+add wave -position end  sim:/moj_procesor/akD
+add wave -position end  sim:/moj_procesor/upis_k
+add wave -position end  sim:/moj_procesor/upis_r
+add wave -position end  sim:/moj_procesor/par_upis
+force -freeze sim:/moj_procesor/clk 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /moj_procesor/rom_memorija
+add wave -position end  sim:/moj_procesor/RAM_Rn_Ak/RAM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

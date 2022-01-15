@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity moj_procesor is
+	port(
+		clk: in std_logic;
+		reset: in std_logic;
+		sig_upis: in std_logic;
+		adresa_upis: in std_logic_vector(N-1 downto 0);
+		PC: out std_logic_vector(N-1 downto 0)
+	);
+end moj_procesor;
+
+architecture arch of moj_procesor is
+begin
+	pr_brojac : entity work.programski_brojac
+				 generic map (N =>4)
+				 port map(clk => clk, reset => reset, sig_upis => sig_upis, adresa_upis => adresa_upis, PC => PC);
+end arch;

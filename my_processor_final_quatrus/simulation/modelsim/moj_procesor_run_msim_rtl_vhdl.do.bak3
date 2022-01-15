@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/Alan/Desktop/MASTER IV SEMESTAR/PROJEKTOVANJE SISTEMA NA CIPU/LABORATORIJSKE VJEZBE/LAB7/programski_brojac.vhd}
+vcom -93 -work work {C:/Users/Alan/Desktop/MASTER IV SEMESTAR/PROJEKTOVANJE SISTEMA NA CIPU/LABORATORIJSKE VJEZBE/LAB7/rom_memorija.vhd}
+vcom -93 -work work {C:/Users/Alan/Desktop/MASTER IV SEMESTAR/PROJEKTOVANJE SISTEMA NA CIPU/LABORATORIJSKE VJEZBE/LAB7/rom.vhd}
+vcom -93 -work work {C:/Users/Alan/Desktop/MASTER IV SEMESTAR/PROJEKTOVANJE SISTEMA NA CIPU/LABORATORIJSKE VJEZBE/LAB7/moj_procesor.vhd}
+

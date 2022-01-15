@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity programski_brojac is
+	port(
+
+	);
+end programski_brojac;
+
+architecture arch of programski_brojac is
+begin
+	brojac : entity work.univerzalni_brojac(arch)
+				 generic map (N =>3)    -- PODESAVAMO PARAMETRE 
+				 port map(clk => clock, syn_clr => s_clr, 
+				 load => load, up => direction, en => enable, d =>ulaz, q=>LED);
+end arch;
